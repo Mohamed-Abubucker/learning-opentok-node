@@ -3,3 +3,6 @@ TOKBOX_API_KEY=your_api_key
 
 # enter your TokBox api secret after the '=' sign below
 TOKBOX_SECRET=your_project_secret
+
+# port number
+PORT=8001
