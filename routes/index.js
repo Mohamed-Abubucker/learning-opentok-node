@@ -11,7 +11,7 @@ if (!apiKey || !secret) {
   console.error('');
   console.error('Missing TOKBOX_API_KEY or TOKBOX_SECRET');
   console.error('Find the appropriate values for these by logging into your TokBox Dashboard at: https://tokbox.com/account/#/');
-  console.error('Then add them to ', path.resolve('.env'), 'or as environment variables' );
+  console.error('Then add them to ', path.resolve('.env'), 'or as environment variables');
   console.error('');
   console.error('=========================================================================================================');
   process.exit();
@@ -40,7 +40,7 @@ router.get('/', function (req, res) {
  * GET /session redirects to /room/session
  */
 router.get('/session', function (req, res) {
-  res.redirect('/room/session');
+  res.redirect('/api/room/session');
 });
 
 /**
